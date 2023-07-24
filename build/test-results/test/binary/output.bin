@@ -1,0 +1,76 @@
+Request method:	POST
+2Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4442",
+    "month": "08",
+    "year": "28",
+     "holder": "Zaglada Alyona",
+    "cvv": "123"
+}
+Request method:	POST
+/Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "08",
+    "year": "28",
+     "holder": "Zaglada Alyona",
+    "cvv": "123"
+}
+Request method:	POST
+/Request URI:	http://localhost:8080/api/v1/pay
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4442",
+    "month": "08",
+    "year": "28",
+     "holder": "Zaglada Alyona",
+    "cvv": "123"
+}
+Request method:	POST
+2Request URI:	http://localhost:8080/api/v1/credit
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+WHeaders:		Accept=application/json, application/javascript, text/javascript, text/json
+#				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+%    "number": "4444 4444 4444 4441",
+    "month": "08",
+    "year": "28",
+     "holder": "Zaglada Alyona",
+    "cvv": "123"
+}
