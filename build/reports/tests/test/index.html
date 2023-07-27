@@ -20,13 +20,13 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">4</div>
+<div class="counter">54</div>
 <p>tests</p>
 </div>
 </td>
 <td>
 <div class="infoBox" id="failures">
-<div class="counter">4</div>
+<div class="counter">30</div>
 <p>failures</p>
 </div>
 </td>
@@ -38,7 +38,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">16.017s</div>
+<div class="counter">5m58.73s</div>
 <p>duration</p>
 </div>
 </td>
@@ -48,7 +48,7 @@
 </td>
 <td>
 <div class="infoBox failures" id="successRate">
-<div class="percent">0%</div>
+<div class="percent">44%</div>
 <p>successful</p>
 </div>
 </td>
@@ -71,20 +71,124 @@
 <h2>Failed tests</h2>
 <ul class="linkList">
 <li>
-<a href="classes/ru.netology.tests.api.APITest.html">APITest</a>.
-<a href="classes/ru.netology.tests.api.APITest.html#shouldGetStatusValidApprovedCardCreditRequest()">shouldGetStatusValidApprovedCardCreditRequest()</a>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardNumberFieldTest.html">CreditPayCardNumberFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardNumberFieldTest.html#shouldFailurePaymentIfEmptyCardNumber()">shouldFailurePaymentIfEmptyCardNumber()</a>
 </li>
 <li>
-<a href="classes/ru.netology.tests.api.APITest.html">APITest</a>.
-<a href="classes/ru.netology.tests.api.APITest.html#shouldGetStatusValidApprovedCardPayment()">shouldGetStatusValidApprovedCardPayment()</a>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html">CreditPayCardholderFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html#shouldFailurePaymentIfNameNumeric()">shouldFailurePaymentIfNameNumeric()</a>
 </li>
 <li>
-<a href="classes/ru.netology.tests.api.APITest.html">APITest</a>.
-<a href="classes/ru.netology.tests.api.APITest.html#shouldGetStatusValidDeclinedCardCreditRequest()">shouldGetStatusValidDeclinedCardCreditRequest()</a>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html">CreditPayCardholderFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html#shouldFailurePaymentIfNameOneWord()">shouldFailurePaymentIfNameOneWord()</a>
 </li>
 <li>
-<a href="classes/ru.netology.tests.api.APITest.html">APITest</a>.
-<a href="classes/ru.netology.tests.api.APITest.html#shouldGetStatusValidDeclinedCardPayment()">shouldGetStatusValidDeclinedCardPayment()</a>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html">CreditPayCardholderFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html#shouldFailurePaymentIfNameRusSym()">shouldFailurePaymentIfNameRusSym()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html">CreditPayCardholderFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html#shouldFailurePaymentIfNameThreeWords()">shouldFailurePaymentIfNameThreeWords()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html">CreditPayCardholderFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html#shouldFailurePaymentIfNameWildcard()">shouldFailurePaymentIfNameWildcard()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCvvFieldTest.html">CreditPayCvvFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCvvFieldTest.html#shouldFailurePaymentIfCvvThreeZero()">shouldFailurePaymentIfCvvThreeZero()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCvvFieldTest.html">CreditPayCvvFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCvvFieldTest.html#shouldFailurePaymentIfEmptyCvv()">shouldFailurePaymentIfEmptyCvv()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayEmptyAllFields.html">CreditPayEmptyAllFields</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayEmptyAllFields.html#shouldFailurePaymentIfEmptyAllFields()">shouldFailurePaymentIfEmptyAllFields()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayHappyPathTest.html">CreditPayHappyPathTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayHappyPathTest.html#shouldFailurePayIfValidDeclinedCards()">shouldFailurePayIfValidDeclinedCards()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayHappyPathTest.html">CreditPayHappyPathTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayHappyPathTest.html#shouldSuccessCreditRequestIfValidApprovedCards()">shouldSuccessCreditRequestIfValidApprovedCards()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayNumberOfMonthFieldTest.html">CreditPayNumberOfMonthFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayNumberOfMonthFieldTest.html#shouldFailurePaymentIfEmptyNumberOfMonth()">shouldFailurePaymentIfEmptyNumberOfMonth()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayNumberOfMonthFieldTest.html">CreditPayNumberOfMonthFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayNumberOfMonthFieldTest.html#shouldFailurePaymentIfNumberOfMonthZero()">shouldFailurePaymentIfNumberOfMonthZero()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayYearFieldTest.html">CreditPayYearFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayYearFieldTest.html#shouldFailurePaymentIfEmptyYear()">shouldFailurePaymentIfEmptyYear()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.creditrequest.CreditPayYearFieldTest.html">CreditPayYearFieldTest</a>.
+<a href="classes/ru.netology.tests.creditrequest.CreditPayYearFieldTest.html#shouldFailurePaymentIfYearZero()">shouldFailurePaymentIfYearZero()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayCardNumberFieldTest.html">PayCardNumberFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayCardNumberFieldTest.html#shouldFailurePaymentIfEmptyCardNumber()">shouldFailurePaymentIfEmptyCardNumber()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html">PayCardholderFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html#shouldFailurePaymentIfNameNumeric()">shouldFailurePaymentIfNameNumeric()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html">PayCardholderFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html#shouldFailurePaymentIfNameOneWord()">shouldFailurePaymentIfNameOneWord()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html">PayCardholderFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html#shouldFailurePaymentIfNameRusSym()">shouldFailurePaymentIfNameRusSym()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html">PayCardholderFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html#shouldFailurePaymentIfNameThreeWords()">shouldFailurePaymentIfNameThreeWords()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html">PayCardholderFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html#shouldFailurePaymentIfNameWildcard()">shouldFailurePaymentIfNameWildcard()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayCvvFieldTest.html">PayCvvFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayCvvFieldTest.html#shouldFailurePaymentIfCvvThreeZero()">shouldFailurePaymentIfCvvThreeZero()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayCvvFieldTest.html">PayCvvFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayCvvFieldTest.html#shouldFailurePaymentIfEmptyCvv()">shouldFailurePaymentIfEmptyCvv()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayEmptyAllFieldsTest.html">PayEmptyAllFieldsTest</a>.
+<a href="classes/ru.netology.tests.payment.PayEmptyAllFieldsTest.html#shouldFailurePaymentIfEmptyAllFields()">shouldFailurePaymentIfEmptyAllFields()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayHappyPathTest.html">PayHappyPathTest</a>.
+<a href="classes/ru.netology.tests.payment.PayHappyPathTest.html#shouldFailurePayIfValidDeclinedCards()">shouldFailurePayIfValidDeclinedCards()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayHappyPathTest.html">PayHappyPathTest</a>.
+<a href="classes/ru.netology.tests.payment.PayHappyPathTest.html#shouldSuccessPayIfValidApprovedCards()">shouldSuccessPayIfValidApprovedCards()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayNumberOfMonthFieldTest.html">PayNumberOfMonthFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayNumberOfMonthFieldTest.html#shouldFailurePaymentIfEmptyNumberOfMonth()">shouldFailurePaymentIfEmptyNumberOfMonth()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayNumberOfMonthFieldTest.html">PayNumberOfMonthFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayNumberOfMonthFieldTest.html#shouldFailurePaymentIfNumberOfMonthZero()">shouldFailurePaymentIfNumberOfMonthZero()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayYearFieldTest.html">PayYearFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayYearFieldTest.html#shouldFailurePaymentIfEmptyYear()">shouldFailurePaymentIfEmptyYear()</a>
+</li>
+<li>
+<a href="classes/ru.netology.tests.payment.PayYearFieldTest.html">PayYearFieldTest</a>.
+<a href="classes/ru.netology.tests.payment.PayYearFieldTest.html#shouldFailurePaymentIfYearZero()">shouldFailurePaymentIfYearZero()</a>
 </li>
 </ul>
 </div>
@@ -103,14 +207,34 @@
 </thead>
 <tbody>
 <tr>
-<td class="failures">
+<td class="success">
 <a href="packages/ru.netology.tests.api.html">ru.netology.tests.api</a>
 </td>
 <td>4</td>
-<td>4</td>
 <td>0</td>
-<td>16.017s</td>
-<td class="failures">0%</td>
+<td>0</td>
+<td>19.893s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="packages/ru.netology.tests.creditrequest.html">ru.netology.tests.creditrequest</a>
+</td>
+<td>25</td>
+<td>15</td>
+<td>0</td>
+<td>3m7.38s</td>
+<td class="failures">40%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="packages/ru.netology.tests.payment.html">ru.netology.tests.payment</a>
+</td>
+<td>25</td>
+<td>15</td>
+<td>0</td>
+<td>2m31.46s</td>
+<td class="failures">40%</td>
 </tr>
 </tbody>
 </table>
@@ -130,14 +254,154 @@
 </thead>
 <tbody>
 <tr>
-<td class="failures">
+<td class="success">
 <a href="classes/ru.netology.tests.api.APITest.html">ru.netology.tests.api.APITest</a>
 </td>
 <td>4</td>
-<td>4</td>
 <td>0</td>
-<td>16.017s</td>
+<td>0</td>
+<td>19.893s</td>
+<td class="success">100%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardNumberFieldTest.html">ru.netology.tests.creditrequest.CreditPayCardNumberFieldTest</a>
+</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>41.434s</td>
+<td class="failures">66%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCardholderFieldTest.html">ru.netology.tests.creditrequest.CreditPayCardholderFieldTest</a>
+</td>
+<td>6</td>
+<td>5</td>
+<td>0</td>
+<td>45.385s</td>
+<td class="failures">16%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.creditrequest.CreditPayCvvFieldTest.html">ru.netology.tests.creditrequest.CreditPayCvvFieldTest</a>
+</td>
+<td>4</td>
+<td>2</td>
+<td>0</td>
+<td>20.997s</td>
+<td class="failures">50%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.creditrequest.CreditPayEmptyAllFields.html">ru.netology.tests.creditrequest.CreditPayEmptyAllFields</a>
+</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>6.172s</td>
 <td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.creditrequest.CreditPayHappyPathTest.html">ru.netology.tests.creditrequest.CreditPayHappyPathTest</a>
+</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>31.302s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.creditrequest.CreditPayNumberOfMonthFieldTest.html">ru.netology.tests.creditrequest.CreditPayNumberOfMonthFieldTest</a>
+</td>
+<td>4</td>
+<td>2</td>
+<td>0</td>
+<td>19.787s</td>
+<td class="failures">50%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.creditrequest.CreditPayYearFieldTest.html">ru.netology.tests.creditrequest.CreditPayYearFieldTest</a>
+</td>
+<td>5</td>
+<td>2</td>
+<td>0</td>
+<td>22.301s</td>
+<td class="failures">60%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.payment.PayCardNumberFieldTest.html">ru.netology.tests.payment.PayCardNumberFieldTest</a>
+</td>
+<td>3</td>
+<td>1</td>
+<td>0</td>
+<td>14.554s</td>
+<td class="failures">66%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.payment.PayCardholderFieldTest.html">ru.netology.tests.payment.PayCardholderFieldTest</a>
+</td>
+<td>6</td>
+<td>5</td>
+<td>0</td>
+<td>38.837s</td>
+<td class="failures">16%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.payment.PayCvvFieldTest.html">ru.netology.tests.payment.PayCvvFieldTest</a>
+</td>
+<td>4</td>
+<td>2</td>
+<td>0</td>
+<td>20.165s</td>
+<td class="failures">50%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.payment.PayEmptyAllFieldsTest.html">ru.netology.tests.payment.PayEmptyAllFieldsTest</a>
+</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>5.856s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.payment.PayHappyPathTest.html">ru.netology.tests.payment.PayHappyPathTest</a>
+</td>
+<td>2</td>
+<td>2</td>
+<td>0</td>
+<td>29.114s</td>
+<td class="failures">0%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.payment.PayNumberOfMonthFieldTest.html">ru.netology.tests.payment.PayNumberOfMonthFieldTest</a>
+</td>
+<td>4</td>
+<td>2</td>
+<td>0</td>
+<td>19.891s</td>
+<td class="failures">50%</td>
+</tr>
+<tr>
+<td class="failures">
+<a href="classes/ru.netology.tests.payment.PayYearFieldTest.html">ru.netology.tests.payment.PayYearFieldTest</a>
+</td>
+<td>5</td>
+<td>2</td>
+<td>0</td>
+<td>23.039s</td>
+<td class="failures">60%</td>
 </tr>
 </tbody>
 </table>
@@ -150,7 +414,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.5.1</a> at 10 июл. 2023 г., 15:12:09</p>
+<a href="http://www.gradle.org">Gradle 7.5.1</a> at 27 июл. 2023 г., 16:31:54</p>
 </div>
 </div>
 </body>

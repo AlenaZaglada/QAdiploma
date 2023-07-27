@@ -4,8 +4,7 @@ services:
     image: mysql:8.0.19
     ports:
       - '3306:3306'
-    volumes:
-      - ./data:/var/lib/mysql
+
     environment:
       - MYSQL_RANDOM_ROOT_PASSWORD=yes
       - MYSQL_DATABASE=app
@@ -17,7 +16,7 @@ services:
     ports:
       - '5432:5432'
     environment:
-      - POSTGRES_RANDOM_ROOT_PASSWORD=yes
+
       - POSTGRES_DB=app
       - POSTGRES_USER=app
       - POSTGRES_PASSWORD=pass
