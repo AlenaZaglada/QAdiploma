@@ -13,12 +13,14 @@ compileJava.options.encoding = "UTF-8"
 compileTestJava.options.encoding = "UTF-8"
 
 allure {
-    autoconfigure = true
-    version = '2.20.1'
+
+
+    version = '2.13.6'
 
     useJUnit5 {
-        version = '2.20.1'
+        version = '2.13.6'
     }
+}
 
 
     repositories {
@@ -58,4 +60,3 @@ allure {
         systemProperty 'sut.url', System.getProperty('sut.url', 'http://localhost:8080')
 
     }
-}
