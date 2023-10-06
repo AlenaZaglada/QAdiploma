@@ -26,6 +26,10 @@ docker-compose up
 # Запуск тестов
 В новой вкладке терминала ввести команду: 
 
+#В новой вкладке терминала ввести команду в зависимости от запущенной БД в п.2 Запуска:
+- ./gradlew clean test "-Ddb.url=jdbc:mysql://localhost:3306/app" - для MySQL
+- ./gradlew clean test "-Ddb.url=jdbc:postgresql://localhost:5432/app" - для PostgreSQL
+
 ./gradlew clean test
 
 # Формирование отчета AllureReport по результатам тестирования
