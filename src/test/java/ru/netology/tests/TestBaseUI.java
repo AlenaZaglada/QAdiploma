@@ -14,7 +14,7 @@ public class TestBaseUI {
     @BeforeAll
     static void setUpAll() {
         SelenideLogger.addListener("AllureSelenide", new AllureSelenide());
-    }
+   }
 
     @AfterAll
     static void tearDownAll() {
